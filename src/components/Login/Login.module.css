@@ -1,0 +1,45 @@
+.mainContainer {
+  background: rgb(199,34,62);
+  background: linear-gradient(114deg, rgba(199,34,62,1) 0%, rgba(159,44,207,1) 60%, rgba(37,78,195,1) 100%);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.cardContainer {
+  background-color: var(--pure-white);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 2rem;
+}
+
+.cardContainer h1 {
+  color: var(--main-color);
+}
+
+.cardDescriptionLeft {
+  border-right: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.cardDescriptionLeft button {
+  margin-top: 22px;
+}
+
+.cardLogin {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+}
+
+.cardLogin button {
+  height: 50px;
+  margin-top: 25px;
+}
