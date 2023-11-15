@@ -1,0 +1,19 @@
+.profile__container {
+  align-items: center;
+  border-top: 1px solid #999;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 0;
+  padding: 10px 0;
+}
+
+.profile__img {
+  background-color: #999;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+.profile__title {
+  margin-left: 1rem;
+}
