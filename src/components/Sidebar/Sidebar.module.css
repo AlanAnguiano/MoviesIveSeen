@@ -12,6 +12,10 @@
 
 .title {
   border-bottom: 1px solid #999;
+  background: -webkit-linear-gradient(194deg, rgba(207,173,247,1) 0%, rgba(177,64,247,1) 14%, rgba(159,44,207,0.9808298319327731) 44%, rgba(20,37,87,1) 84%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .profile__container {

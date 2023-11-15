@@ -19,7 +19,7 @@ export const OptionItem = ({ optionText, path, children }) => {
 
   return(
     <>
-      <Link to={ path } className={ currentStyle }>
+      <Link to={ path } className={ `${currentStyle}` }>
         <div className={ styles.optionPanel__item }>
           <i>{children}</i>
           <p>{optionText}</p>
