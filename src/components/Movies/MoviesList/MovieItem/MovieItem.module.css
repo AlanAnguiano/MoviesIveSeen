@@ -1,0 +1,92 @@
+.cardMovie__container {
+  background-color: var(--pure-white);
+  border-radius: 15px solid var(--cards-border-color);
+  border-radius: 5px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+}
+
+.cardMovie__container:hover .cardMovie__description {
+  bottom: 0;
+  -webkit-transition: bottom 0.5s ease-in-out;
+  -moz-transition: bottom 0.5s ease-in-out;
+  -ms-transition: bottom 0.5s ease-in-out;
+  -o-transition: bottom 0.5s ease-in-out;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.cardMovie__container img { 
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
+}
+
+.cardMovie__description {
+  background: rgb(177,25,241);
+  background: linear-gradient(0deg, rgba(195,75,246,0.8) 0%, rgba(106,30,171,0.8) 39%, rgba(20,37,87,0.8) 81%);
+  bottom: -190px;
+  color: var(--pure-white);
+  display: flex;
+  flex-flow: column;
+  height: 170px;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  -webkit-transition: bottom 0.5s ease-in-out;
+  -moz-transition: bottom 0.5s ease-in-out;
+  -ms-transition: bottom 0.5s ease-in-out;
+  -o-transition: bottom 0.5s ease-in-out;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.cardMovie__description::before {
+  background: rgba(20,37,87,0.80);
+  clip-path: ellipse(60% 20px at bottom center);
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  z-index: -1;
+
+  -webkit-clip-path: ellipse(60% 20px at bottom center);
+}
+
+.cardMovie__title_rate {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cardMovie__title_rate h2 {
+  display: -webkit-box;
+  line-clamp: 2;
+  margin-bottom: 0;
+  margin-top: -15px;
+  overflow: hidden;
+  padding: 0 5px;
+  text-align: center;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+.cardMovie__rate_stars {
+  display: flex;
+  justify-content: center;
+}
+
+.cardMovie__info {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.cardMovie__seeMore {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
