@@ -4,6 +4,12 @@
   width: 100vw;
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
 .HomeContainer h1 {
   flex: 1;
 }
