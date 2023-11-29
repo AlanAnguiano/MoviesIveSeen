@@ -8,7 +8,9 @@ const Home = () => {
   return(
     <div className={ Styles.HomeContainer }>
       <Sidebar/>
-      { outlet || <div className={ Styles.empty }>Select an option from Sidebar to start.</div> }
+      <div className={ Styles.container }>
+        { outlet || <div className={ Styles.empty }>Select an option from Sidebar to start.</div> }
+      </div>
     </div>
   )
 }
